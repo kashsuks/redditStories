@@ -8,4 +8,4 @@ Just run the bash file by doing
 ```bash
 bash run.sh
 ```
-once you run the file and the dependencies install the scraper.py file will automatically run
+once you run the file and the dependencies install the `scraper.py` file will automatically run
