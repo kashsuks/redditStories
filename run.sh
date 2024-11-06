@@ -12,6 +12,8 @@ else
     exit 1
 fi
 
-pip install -r requirements.txt
-
-python scraper.py
+# Create a virtual environment with Python 3.11
+python3.11 -m venv myenv
+source myenv/bin/activate
+pip install playsound
+python3 scraper.py
