@@ -19,7 +19,7 @@ myobj.save("welcome.mp3")
 def play_audio(file_path):
     if platform.system() == "Windows":
         os.system(f"start {file_path}")     
-    elif platform.system() == "Darwin":  # macOS
+    elif platform.system() == "Darwin":
         subprocess.call(["afplay", file_path])
     elif platform.system() == "Linux":
         subprocess.call(["xdg-open", file_path])
